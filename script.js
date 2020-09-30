@@ -111,3 +111,43 @@
 //   message = `Доставка в ${country} будет стоить ${price} кредитов`;
 // }
 // console.log(message);
+
+// - - - - - - - -
+
+// let total = 0;
+
+// while (true) {
+//   let input = prompt("Введите чмсло");
+//   if (input === null) {
+//     break;
+//   }
+//   input = Number(input);
+//   total += input;
+// }
+// console.log(`Общая сумма: ${total}`);
+// --------------------
+// const numberInputRef = document.querySelector('input[name="number"]');
+// const powerInputRef = document.querySelector('input[name="power"]');
+// const buttonRef = document.querySelector("button");
+// buttonRef.addEventListener("click", function () {
+//   console.log("numberInputRef.value: ", numberInputRef.value);
+//   console.log("powerInputRef.value: ", powerInputRef.value);
+
+//   const number = Number(numberInputRef.value);
+//   const power = Number(powerInputRef.value);
+
+//   const result = Math.pow(number, power);
+//   //   console.log(result);
+//   alert(result);
+// });
+// ------------------------
+const names = ["ANdrey", "Tanya", "Inna", "Anna"];
+
+let longestWord = "";
+for (const name of names) {
+  if (name.length > longestWord.length) {
+    longestWord = name;
+  }
+}
+console.log(longestWord);
+//-----------------------------
