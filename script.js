@@ -151,14 +151,53 @@
 // }
 // console.log(longestWord);
 //-----------------------------
-const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
-const nameToFind = "Poly";
 
-let message;
+// const valueInputRef = document.querySelector(".js-value");
+// const addValueBtn = document.querySelector(".js-add-value");
+// const calcBtn = document.querySelector(".js-calculate");
+// const numbers = [];
+// let total = 0;
 
-for (let i = 0; i < friends.length; i += 1) {
-  const friend = friends[i];
-  if (nameToFind === friend) {
-    console.log("Нашли такого");
-  }
-}
+// addValueBtn.addEventListener("click", function () {
+//   const value = Number(valueInputRef.value);
+
+//   numbers.push(value);
+//   valueInputRef.value = "";
+//   console.log(numbers);
+// });
+
+// calcBtn.addEventListener("click", function () {
+//   for (const number of numbers) {
+//     total += number;
+//   }
+//   console.log("Total", total);
+// });
+// ------------------------------------
+
+// const title = "Top 10 benefits of React framework";
+
+// const normalizedTitle = title.toLowerCase();
+// console.log(normalizedTitle);
+
+// const words = normalizedTitle.split(" ");
+// console.log(words);
+
+// const slug = words.join("-");
+
+// console.log(slug);
+// --
+// const title = "Top 10 benefits of React framework";
+// const slug = title.toLocaleLowerCase().split(" ").join("-");
+// console.log(slug);
+// --
+// const title = "Top 10 benefits of React framework";
+// const words = title.toLocaleLowerCase().split(" ");
+// let slug = "";
+
+// for (let i = 0; i < words.length; i += 1) {
+//   const isNotLastNumber = i !== words.length - 1;
+//   slug += isNotLastNumber ? words[i] + "-" : words[i];
+// }
+
+// console.log(slug);
+// --------------------------------
