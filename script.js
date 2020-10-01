@@ -141,13 +141,24 @@
 //   alert(result);
 // });
 // ------------------------
-const names = ["ANdrey", "Tanya", "Inna", "Anna"];
+// Функция вывода длинного имени
+// const names = ["ANdrey", "Tanya", "Inna", "Anna"];
 
-let longestWord = "";
-for (const name of names) {
-  if (name.length > longestWord.length) {
-    longestWord = name;
-  }
-}
-console.log(longestWord);
+// let longestWord = "";
+// for (const name of names) {
+//   if (name.length > longestWord.length) {
+//     longestWord = name;
+//   }
+// }
+// console.log(longestWord);
 //-----------------------------
+const getItemsString = function (array) {
+  "use strict";
+  // Write code under this line
+  let result = "";
+  for (let i = 0; i < array.length; i += 1) {
+    result += `${i + 1} - ${array[i]}\n`;
+  }
+  return result;
+};
+console.log(getItemsString(["Mango", "Poly", "Ajax", "Lux", "Jay"]));
