@@ -141,13 +141,24 @@
 //   alert(result);
 // });
 // ------------------------
-const names = ["ANdrey", "Tanya", "Inna", "Anna"];
+// const names = ["ANdrey", "Tanya", "Inna", "Anna"];
 
-let longestWord = "";
-for (const name of names) {
-  if (name.length > longestWord.length) {
-    longestWord = name;
+// let longestWord = "";
+// for (const name of names) {
+//   if (name.length > longestWord.length) {
+//     longestWord = name;
+//   }
+// }
+// console.log(longestWord);
+//-----------------------------
+const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
+const nameToFind = "Poly";
+
+let message;
+
+for (let i = 0; i < friends.length; i += 1) {
+  const friend = friends[i];
+  if (nameToFind === friend) {
+    console.log("Нашли такого");
   }
 }
-console.log(longestWord);
-//-----------------------------
